@@ -545,6 +545,7 @@ img {
 .footer-wrapper-social-list {
   width: 206px;
   height: 80px;
+  margin-right: 93px;
 }
 .footer-social-list-text {
   font-style: normal;
@@ -559,7 +560,47 @@ img {
 .footer-social-item {
   display: flex;
 }
+.footer-submit-form-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer-submit-form-text-wrapper {
+  display: flex;
+  align-items: center;
+}
 
+.footer-input-email-form {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding: 15px 16px;
+  margin-right: 12px;
+}
+.footer-input-button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 .section-team-social-item {
   display: flex;
 }
